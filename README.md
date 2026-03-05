@@ -3,6 +3,8 @@
 ThWERTEe is a QWERTY-derived keyboard layout for the Shavian alphabet. <br/>
 It's available for XKB (Linux) and Heliboard (Android).
 
+**⸰𐑞𐑢𐑧𐑮𐑑𐑰**
+
 ## Table of Contents
 
 - [Features](#features)
