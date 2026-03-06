@@ -40,9 +40,11 @@ I've also been dissatisfied with the astounding number of Shavian layouts that m
 
 - The [extended Shavian](#extended-shavian) characters are supported by the inclusion of the Unicode "Variation Selector 1" (`VS1`) key, which is located on `shift`+`𐑯` (`shift`+`N`). 
 
-#### Layout Screenshots
+#### Desktop Layout Image
 
 ![ThWERTEe Desktop Layout Map](images/ThWERTEe_desktop.png)
+
+#### Mobile Layout Image
 
 ![ThWERTEe Mobile Layout Map](images/ThWERTEe_mobile.png)
 
