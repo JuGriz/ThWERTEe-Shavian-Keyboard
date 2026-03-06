@@ -1,7 +1,3 @@
-\\THE JSON FILE ISN'T FORMATTED RIGHT FUCK JUST FIX IT
-
-
-
 ![ThWERTEe Banner](images/ThWERTEe_banner.png)
 
 # ThWERTEe Shaw Layout
@@ -110,7 +106,7 @@ Tap <ins>Languages & Layouts</ins> at the top, and then either <ins>No language<
 At the top, under <ins>Layout</ins>, tap the 🞣 icon. An ephemeral will pop up about adding custom layouts; just tap <ins>OK</ins>. 
 
 4. **Copy the code:** <br/>
-Switch over to your browser (or however you're accessing this repo), open [ThWERTEe.json](heliboard/ThWERTEe.json), and copy the code to your clipboard. (Technically this step can be done at any point before the next step.)
+Switch over to your browser (or however you're accessing this repo), open [ThWERTEe.json](images/ThWERTEe.json), and copy the code to your clipboard. (Technically this step can be done at any point before the next step.)
 
 5. **Paste the code into the layout file:** <br/>
 Name your layout file at the top; "ThWERTEe" makes the most sense, but you do you. Paste the code in the next text field and press <ins>Save</ins>. 
