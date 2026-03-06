@@ -1,3 +1,5 @@
+![ThWERTEe Banner](images/ThWERTEe_banner.png)
+
 # ThWERTEe Shaw Layout
 
 ThWERTEe is a QWERTY-derived keyboard layout for the Shavian alphabet, prioritizing accessibility and a mininal learning curve. <br/>
