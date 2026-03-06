@@ -101,13 +101,19 @@
   [
     { "$": "shift_state_selector",
       "default": { "label": "𐑟",
-        "popup": { "main": { "label": "𐑠" } } },
-      "manualOrLocked": { "label": "𐑠" }
+        "popup": { "main": { "label": "𐑠" },
+          "relevant": [
+            { "label": "«" }] } },
+      "manualOrLocked": { "label": "𐑠",
+        "popup": { "relevant": [{ "label": "«" }] } }
     },
     { "$": "shift_state_selector",
       "default": { "label": "𐑴",
-        "popup": { "main": { "label": "𐑷" } } },
-      "manualOrLocked": { "label": "𐑷" }
+        "popup": { "main": { "label": "𐑷" },
+          "relevant": [
+            { "label": "»" }] } },
+      "manualOrLocked": { "label": "𐑷",
+        "popup": { "relevant": [{ "label": "»" }] } }
     },
     { "$": "shift_state_selector",
       "default": { "label": "𐑱",
