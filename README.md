@@ -1,3 +1,7 @@
+\\THE JSON FILE ISN'T FORMATTED RIGHT FUCK JUST FIX IT
+
+
+
 ![ThWERTEe Banner](images/ThWERTEe_banner.png)
 
 # ThWERTEe Shaw Layout
@@ -20,15 +24,15 @@ It's available for XKB (Linux) and Heliboard (Android).
 
 ## OVERVIEW
 
-The intent of this Shavian layout is to preserve as much of the muscle-memory for QWERTY, english-speaking, latinic typing as possible. <br/>
-I designed this layout to feel intuitive and accessible for newcomers to Shavian who are already used to standard QWERTY. Oftentimes, typing in this layout will involve most or almost all of the same keystrokes as when typing in latinic QWERTY. <br/> 
+The intent of this Shavian layout is to preserve as much of the muscle memory for QWERTY, english-speaking, latinic typing as possible. <br/>
+I designed this layout to feel intuitive and accessible for newcomers to Shavian who are already used to standard QWERTY. Oftentimes, typing in this layout will involve most or at least many of the same keystrokes as when typing in latinic QWERTY. <br/> 
 I've also been dissatisfied with the astounding number of Shavian layouts that map Shavian characters to non-letter keys. This layout only uses the 26 latin character keys, and all other keys are unaffected. This allows for a much more intuitive typing experience.
 
 ### Key Features
 
 - The main priority is that keys retain their latinic character's most-common phoneme, but in the Shavian script as often as possible:
    - **Consonants:** 15 of the 21 consonant keys have the corresponding Shavian phoneme character on their unshifted layer (e.g.; the `W`, `R`, and `T` keys have `𐑢`, `𐑮`, and `𐑑`, respectively, on their unshifted layers). Wherever possible, a consonant's flipped version is simply located on its shifted layer. 
-   - **Vowels:** english vowel character pronunciations are extremely varied, but all vowel keys have most common or very common vowel phonemes on both shifted and unshifted layers. All other shavian vowels are placed near common pairings on the shifted layer.
+   - **Vowels:** english vowel character pronunciations are extremely varied, but all vowel keys have most common or very common vowel phonemes on both shifted and unshifted layers. All other Shavian vowels are placed near common pairings on the shifted layer.
    - **Ligatures:** Each ligature is usually on the shifted layer of a component character's key (e.g.; `𐑾` is on `shift`+`𐑩`). 
    - There are two exceptions to this general principle of most-common phonemes on unshifted keys: 
       - The `𐑲` character is placed on `shift`+`I`, because of the frequency (and therefore muscle-memory) of typing the pronoun "I" with that key combination.
@@ -42,11 +46,11 @@ I've also been dissatisfied with the astounding number of Shavian layouts that m
 
 - The [extended Shavian](#extended-shavian) characters are supported by the inclusion of the Unicode "Variation Selector 1" (`VS1`) key, which is located on `shift`+`𐑯` (`shift`+`N`). 
 
-#### Desktop Layout Image
+#### XKB Layout Image
 
 ![ThWERTEe Desktop Layout Map](images/ThWERTEe_desktop.png)
 
-#### Mobile Layout Image
+#### Heliboard Layout Image
 
 ![ThWERTEe Mobile Layout Map](images/ThWERTEe_mobile.png)
 
@@ -126,12 +130,14 @@ Switch to your new layout by holding down `,` and swiping to the `🌐` icon (th
 
 ## ADDITIONAL USAGE NOTES
 
-### XKB Performance Settings 
+### XKB Performance Issues 
 
 #### Keyboard Shortcuts
 - In certain situations, keyboard shortcuts will not work while using a Shavian XKB keyboard layout. The reasons for this are varied; certain applications, text fields, shortcuts, and permutations of those factors all contribute.
-- This problem doesn't exist for just ThWERTEe, nor for just Shavian layouts. From my research and limited technical knowledge, non-latinic keyboard layouts seem to generally have these problems. <br/>
-- If anyone wants to troubleshoot this issue, I'll happily update this with the solution. 
+- This problem doesn't exist for just ThWERTEe, nor for just Shavian layouts. From my research and limited technical knowledge, non-latinic keyboard layouts seem to generally have these problems. 
+      - If anyone wants to troubleshoot this issue, I'll happily update this with the solution. 
+
+***
 
 ### Heliboard Performance Settings 
 
@@ -142,10 +148,12 @@ Switch to your new layout by holding down `,` and swiping to the `🌐` icon (th
 <ins>Layout</ins> > <ins>Symbols</ins> > <ins>Number row</ins>.
 - <ins>Language</ins> and <ins>Language (priority)</ins> don't really matter, even if your layout isn't set to <ins>No language</ins>. Heliboard would need to add a Shavian-dedicated .txt file to [locale_key_texts](https://github.com/Helium314/HeliBoard/tree/2fde28c19f9ec340e0669d15793f7086171a4f65/app/src/main/assets/locale_key_texts) with character associations for those two settings to work. 
 
+***
+
 ### Extended Shavian
 
 - The `VS1` character allows you to type some extra Shavian characters not included in Unicode. <br/>
-   - To access these characters, just add `VS1` at the end of the following characters while using a font that supports the extended characters: 𐑺, 𐑻, 𐑒, 𐑜, 𐑤, 𐑢. 
+   - To access these characters, just add `VS1` at the end of the following characters while using a font that supports the extended characters: `𐑺`, `𐑻`, `𐑒`, `𐑜`, `𐑤`, `𐑢`. 
 - These characters are extraneous for most applications, but may be useful in cases where conveying very specific pronunciation is necessary - such as in proper nouns or pronunciation notation.
 
 > [!NOTE]
