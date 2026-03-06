@@ -1,0 +1,18 @@
+    <layout>
+      <configItem>
+        <name>shavian</name>
+        <shortDescription>sh</shortDescription>
+        <description>English (Shavian)</description>
+		<languageList>
+          <iso639Id>eng</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>thwertee</name>
+            <description>English (Shavian, ThWERTEe)</description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>

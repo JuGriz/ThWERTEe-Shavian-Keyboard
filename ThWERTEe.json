@@ -1,0 +1,136 @@
+[
+  [
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑞",
+        "popup": { "main": { "label": "𐑻" } } },
+      "manualOrLocked": { "label": "𐑻" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑢",
+        "popup": { "main": { "label": "𐑫" } } },
+      "manualOrLocked": { "label": "𐑫" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑧",
+        "popup": { "main": { "label": "𐑺" } } },
+      "manualOrLocked": { "label": "𐑺" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑮",
+        "popup": { "main": { "label": "𐑼" } } },
+      "manualOrLocked": { "label": "𐑼" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑑",
+        "popup": { "main": { "label": "𐑗" } } },
+      "manualOrLocked": { "label": "𐑗" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑰",
+        "popup": { "main": { "label": "𐑘" } } },
+      "manualOrLocked": { "label": "𐑘" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑳",
+        "popup": { "main": { "label": "𐑵" } } },
+      "manualOrLocked": { "label": "𐑵" }
+    },
+    { "$": "shift_state_selector",
+        "default": { "label": "𐑦",
+        "popup": { "main": { "label": "𐑲" } } },
+      "manualOrLocked": { "label": "𐑲" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑪",
+        "popup": { "main": { "label": "𐑶" } } },
+      "manualOrLocked": { "label": "𐑶" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑐",
+        "popup": { "main": { "label": "⸰" } } },
+      "manualOrLocked": { "label": "⸰" }
+    }
+  ],
+  [
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑨",
+        "popup": { "main": { "label": "𐑭" } } },
+      "manualOrLocked": { "label": "𐑭" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑕",
+        "popup": { "main": { "label": "𐑖" } } },
+      "manualOrLocked": { "label": "𐑖" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑛",
+        "popup": { "main": { "label": "𐑡" } } },
+      "manualOrLocked": { "label": "𐑡" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑓",
+        "popup": { "main": { "label": "𐑹" } } },
+      "manualOrLocked": { "label": "𐑹" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑩",
+        "popup": { "main": { "label": "𐑾" } } },
+      "manualOrLocked": { "label": "𐑾" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑣",
+        "popup": { "main": { "label": "𐑬" } } },
+      "manualOrLocked": { "label": "𐑬" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑙",
+        "popup": { "main": { "label": "𐑿" } } },
+      "manualOrLocked": { "label": "𐑿" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑒",
+        "popup": { "main": { "label": "𐑜" } } },
+      "manualOrLocked": { "label": "𐑜" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑤",
+        "popup": { "main": { "label": "·" } } },
+      "manualOrLocked": { "label": "·" }
+    }
+  ],
+  [
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑟",
+        "popup": { "main": { "label": "𐑠" } } },
+      "manualOrLocked": { "label": "𐑠" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑴",
+        "popup": { "main": { "label": "𐑷" } } },
+      "manualOrLocked": { "label": "𐑷" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑱",
+        "popup": { "main": { "label": "𐑸" } } },
+      "manualOrLocked": { "label": "𐑸" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑝",
+        "popup": { "main": { "label": "𐑔" } } },
+      "manualOrLocked": { "label": "𐑔" }
+    },
+    { "$": "shift_state_selector",
+      "default": { "label": "𐑚",
+        "popup": { "main": { "label": "𐑽" } } },
+      "manualOrLocked": { "label": "𐑽" }
+    },
+    { "label": "𐑯",
+      "popup": { "main": { "label": "!" },
+        "relevant": [ { "label": "ᵛˢ¹|︀" } ] }
+    },
+    { "label": "𐑥",
+      "popup": { "main": { "label": "?" },
+        "relevant": [ { "label": "◌́|!code/769" }] }
+    }
+  ]
+]
