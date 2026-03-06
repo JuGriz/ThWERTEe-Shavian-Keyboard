@@ -9,6 +9,7 @@ It's available for XKB (Linux) and Heliboard (Android).
 
 - [Overview](#overview)
    * [Key Features](#key-features)
+   * [Layout Images](#layout-images)
 - [Installation](#installation)
    * [Supported Keyboards](#supported-keyboards)
    * [Installing on XKB](#installing-on-xkb)
@@ -41,6 +42,8 @@ I've also been dissatisfied with the astounding number of Shavian layouts that m
       - <ins>_To be perfectly clear_</ins>: I'm simply adding this as an _option_, if you don't want to use it then don't. 
 
 - The [extended Shavian](#extended-shavian) characters are supported by the inclusion of the Unicode "Variation Selector 1" (`VS1`) key, which is located on `shift`+`𐑯` (`shift`+`N`). 
+
+### Layout Images
 
 #### XKB Layout Image
 
@@ -89,7 +92,7 @@ At the bottom, add a shortcut to switch between layouts (e.g.; `meta`+`space`). 
 > [!IMPORTANT]
 Sometimes an update will overwrite `[xkb]/rules/evdev.xml`, so if the layouts stop working after updating then you may need to repeat steps 3-5, possibly 6 as well.
 
-***
+# 
 
 ### Installing on Heliboard
 
@@ -133,7 +136,7 @@ Switch to your new layout by holding down `,` and swiping to the `🌐` icon (th
 - This problem doesn't exist for just ThWERTEe, nor for just Shavian layouts. From my research and limited technical knowledge, non-latinic keyboard layouts seem to generally have these problems. 
       - If anyone wants to troubleshoot this issue, I'll happily update this with the solution. 
 
-***
+# 
 
 ### Heliboard Performance Settings 
 
@@ -144,7 +147,7 @@ Switch to your new layout by holding down `,` and swiping to the `🌐` icon (th
 <ins>Layout</ins> > <ins>Symbols</ins> > <ins>Number row</ins>.
 - <ins>Language</ins> and <ins>Language (priority)</ins> don't really matter, even if your layout isn't set to <ins>No language</ins>. Heliboard would need to add a Shavian-dedicated .txt file to [locale_key_texts](https://github.com/Helium314/HeliBoard/tree/2fde28c19f9ec340e0669d15793f7086171a4f65/app/src/main/assets/locale_key_texts) with character associations for those two settings to work. 
 
-***
+# 
 
 ### Extended Shavian
 
