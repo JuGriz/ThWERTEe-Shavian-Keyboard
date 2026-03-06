@@ -99,7 +99,7 @@ Sometimes an update will overwrite `[xkb]/rules/evdev.xml`, so if the layouts st
 Installing on [Heliboard](https://github.com/Helium314/HeliBoard) is straightforward, and creating/editing layouts is relatively [well-documented](https://github.com/Helium314/HeliBoard/wiki/2.-Layouts):
 
 1. **Open the Heliboard settings:** <br/>
-Either tap Heliboard in your apps, or long-press the `,` and slide it to the `⚙` icon. 
+Either tap Heliboard in your apps, or long-press the comma `,` and slide it to the settings `⚙` icon. 
 
 2. **Add a new language profile:** <br/>
 Tap <ins>Languages & Layouts</ins> at the top, and then either <ins>No language</ins> or <ins>English</ins> in your locality. <br/>
@@ -123,7 +123,7 @@ Experiment with the layout settings until everything works for you.<br/>
 See the [Heliboard Performance Settings](#heliboard-performance-settings) for details on what generally works.
 
 7. **Use your new layout:** <br/>
-Switch to your new layout by holding down `,` and swiping to the `🌐` icon (the shortcut by default). If you'd prefer a designated key to switch language, go to <ins>Preferences</ins> > <ins>Additional keys</ins> > <ins>Language switch key</ins>. 
+Switch to your new layout by holding down comma `,` and swiping to the language switch `🌐` icon. If you'd prefer a designated key to switch language, go to <ins>Preferences</ins> > <ins>Additional keys</ins> > <ins>Language switch key</ins>. 
 
 **You should now be able to type in Shavian on the ThWERTEe layout on Heliboard!**
 
