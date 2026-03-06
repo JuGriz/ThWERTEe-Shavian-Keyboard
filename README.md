@@ -3,11 +3,9 @@
 ThWERTEe is a QWERTY-derived keyboard layout for the Shavian alphabet. <br/>
 It's available for XKB (Linux) and Heliboard (Android).
 
-**⸰𐑞𐑢𐑧𐑮𐑑𐑰**
-
 ## Table of Contents
 
-- [Features](#features)
+- [Overview](#overview)
 - [Installation](#installation)
    * [Supported Keyboards](#supported-keyboards)
    * [Installing on XKB](#installing-on-xkb)
@@ -17,17 +15,26 @@ It's available for XKB (Linux) and Heliboard (Android).
    * [Heliboard Performance Settings](#heliboard-performance-settings)
    * [Extended Shavian](#extended-shavian)
  
+## OVERVIEW
 
-## FEATURES
-
-The intent of this Shavian layout is to preserve as much of the muscle-memory for QWERTY, english-speaking, latinic typing as possible. Many of the keys retain the most-frequent phoneme of the latinic character, but in the Shavian script (especially consonants). 
-> 👉 **EXAMPLE:** <br/>
-> W, R, T, P, S, D, F, H, L, Z, V, B, N, and M are all on the same, unshifted keys. 
-
+The intent of this Shavian layout is to preserve as much of the muscle-memory for QWERTY, english-speaking, latinic typing as possible. <br/>
 I designed this layout to feel intuitive and accessible for newcomers to Shavian who are already used to standard QWERTY. I've also been dissatisfied with the astounding number of Shavian layouts that map Shavian characters to non-letter keys, rendering intuitive typing effectively impossible in my experience. 
 
-This layout supports the extended Shavian characters by the inclusion of the Variation Selector 1 key. It will be referred to as `VS1` in this repo, and is located on shifted `𐑯` (`N`). <br/>
-See [Extended Shavian](#extended-shavian) for a list of supported typefaces. 
+### Key Features
+
+- The main priority is that keys retain their latinic character's most-common phoneme, but in the Shavian script as often as possible:
+   - Consonants: 15 of the 21 consonant keys have the corresponding Shavian phoneme character on their unshifted layer (e.g.; the `W`, `R`, and `T` keys have `𐑢`, `𐑮`, and `𐑑`, respectively, on their unshifted layers). Wherever possible, a consonant's flipped version is simply located on its shifted layer. 
+   - Vowels: english vowel character pronunciations are extremely varied, but all vowel keys have most common or very common vowel phonemes on both shifted and unshifted layers. All other shavian vowels are placed near common pairings on the shifted layer.
+   - Ligatures: Each ligature is usually on the shifted layer of a component character's key (e.g.; `𐑾` is on shifted `𐑩`). 
+   - There are two exceptions to this general principle of most-common phonemes on unshifted keys: 
+      - The `𐑲` character is placed on shifted `I`, because of the frequency (and therefore muscle-memory) of typing the pronoun "I" with that key combination.
+      - The `𐑙` character is placed on unshifted `J` even though it's not among the 27 most common phonemes; this is simply to allow for faster typing of the gerund "ing" suffix.
+
+- The layout includes all other core characters, and more: 
+   - The namer dot `·` and [acroring](https://shavian.neocities.org/crash-course#:~:text=The%20acroring%20precedes%20an%20initialism) `⸰` characters are both included on shifted `L` and shifted `P` keys, respectively. Their placement near the rest of the most-common punctuation keys is intentional.
+   - The Unicode "Combining Acute Accent" mark `◌́` is also included; this is my personal contribution as a (hopeful/potential) solution to [the stressed Shavian vowel problem](https://shavian.neocities.org/dangit#:~:text=I%20Can%E2%80%99t%20Stress%20This%20Enough%20%28or%20At%20All). This accent mark is located on shifted `𐑥` (`M`) - add it after a vowel to indicate that the stress goes on that syllable. <ins>To be perfectly clear</ins>: I'm simply adding this as an option, if you don't want to use it then don't. I'm fully aware that this is against one of the original directives of Shaw for
+   - The [extended Shavian](#extended-shavian) characters are supported by the inclusion of the Unicode "Variation Selector 1" (`VS1`) key, which is located on shifted `𐑯` (`N`). 
+
 
 
 #### Layout Screenshots
@@ -146,12 +153,4 @@ Switch to your new layout by holding down `,` and swiping to the `🌐` icon (th
    - [Hal](https://2gd4.me/tidbit/shavian-fonts.html#hal) - based on CGA 8×16 system font; available in sans and serif
    - [Iotacism #43](https://2gd4.me/tidbit/shavian-fonts.html#iotacism) - based on Iosevka by Belleve Invis
    - [Allstars](https://2gd4.me/tidbit/shavian-fonts.html#allstars) - based on the text from Super Mario All-Stars
-
-
-
-
-
-
-
-
 
