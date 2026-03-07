@@ -2,7 +2,7 @@
 
 # ThWERTEe Shaw Layout
 
-ThWERTEe is a QWERTY-derived keyboard layout for the Shavian alphabet, prioritizing accessibility and a mininal learning curve. <br/>
+ThWERTEe is a QWERTY-derived keyboard layout for the Shavian alphabet, prioritizing accessibility and a minimal learning curve. <br/>
 It's available for XKB (Linux) and Heliboard (Android).
 
 > _Installation guides are in the [wiki](https://github.com/JuGriz/ThWERTEe-Shavian-Keyboard/wiki)._
