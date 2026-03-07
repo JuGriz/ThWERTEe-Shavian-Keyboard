@@ -31,7 +31,7 @@ I've also been dissatisfied with the astounding number of Shavian layouts that m
 
 - The [extended Shavian](https://github.com/JuGriz/ThWERTEe-Shavian-Keyboard/wiki/3.-Additional-Usage-Notes#extended-shavian) characters are supported by the inclusion of the Unicode "Variation Selector 1" (`VS1`) key, which is located on `shift`+`𐑯` (`shift`+`N`). 
 
-## INSTALLATION
+## Installation
 
 ThWERTEe is currently available for use on the Heliboard keyboard app on Android, and on XKB on Linux. 
 
@@ -39,6 +39,8 @@ Full installation guides are located in the wiki:
 - [Heliboard Install Guide](https://github.com/JuGriz/ThWERTEe-Shavian-Keyboard/wiki/1.-ThWERTEe-on-Heliboard)
 
 - [XKB Install Guide](https://github.com/JuGriz/ThWERTEe-Shavian-Keyboard/wiki/2.-ThWERTEe-on-XKB)
+
+***
 
 ## Layout Images
 
