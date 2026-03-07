@@ -25,7 +25,7 @@ I've also been dissatisfied with the astounding number of Shavian layouts that m
 
 - The layout includes standard and extended punctuation: 
    * The namer dot `·` and [acroring](https://shavian.neocities.org/crash-course#:~:text=The%20acroring%20precedes%20an%20initialism) `⸰` characters are both included on `shift`+`L` and `shift`+`P` keys, respectively. Their placement near the rest of the most-common punctuation keys is intentional.
-   * For those localities where guillemets (`«`, `»`) are used, these characters are located on `alt`+`Z` and `alt`+`X` for XKB, and. 
+   * For those localities where guillemets (`«`, `»`) are used, these characters are located on `alt`+`Z` and `alt`+`X` for XKB, and in the popups for `Z` and `X` for Heliboard. 
    * The Unicode "Combining Acute Accent" mark (`◌́`) is also included; this is my personal contribution as a (hopeful/potential) solution to [the stressed Shavian vowel problem](https://shavian.neocities.org/dangit#:~:text=I%20Can%E2%80%99t%20Stress%20This%20Enough%20%28or%20At%20All). This accent mark is located on `shift`+`𐑥` (`shift`+`M`) - add it after a vowel to indicate that the stress goes on that syllable. 
       + <ins>_To be perfectly clear_</ins>: I'm simply adding this as an _option_, if you don't want to use it then don't. 
 
