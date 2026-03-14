@@ -56,4 +56,5 @@ xkb_symbols "thwertee" {
     key <AB09> { [       period,        greater ] };
     key <AB10> { [        slash,       question ] };
 
+// version 1.0 - 2026.03.06
 };
